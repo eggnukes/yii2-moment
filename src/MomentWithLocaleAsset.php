@@ -1,6 +1,8 @@
 <?php
 namespace eggnukes\moment;
 
+use Yii;
+
 class MomentWithLocaleAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/moment/locale';
